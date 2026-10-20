@@ -47,3 +47,9 @@ O ReportLab inclui data de criação no PDF; uma nova execução pode produzir o
 - Apresentação, link na planilha de grupos e entrega no Classroom.
 
 As três ferramentas não foram implementadas nesta etapa. A hipótese de benefício de cada uma permanece sem resultado observado.
+
+## Rodada posterior de sorteio e seleção
+
+Matheus solicitou três combinações aleatórias da caixa, três agentes Luna em paralelo e um quarto agente como advogado do diabo, aplicando Revenue-Centric Design. A [rodada completa](experimentos/2026-10-19-sorteio-rcd/README.md) preserva seed, escolhas, tentativas, prompts integrais, propostas e parecer.
+
+O crítico selecionou Oficina em Prancha para validação paga; nenhuma proposta justificou investimento com a evidência disponível. Em seguida, por novo pedido de Matheus, foi preparado o [documento do pitch](pitch-oficina-em-prancha.md), com limite de cinco minutos, tecnologias propostas e cronograma. As tasks do There's An AI For That aguardam rótulos e links do usuário, porque o navegador bloqueou o acesso ao domínio por sua política de segurança. Essa lacuna não foi preenchida por suposição.

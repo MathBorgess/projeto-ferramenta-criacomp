@@ -1,5 +1,7 @@
 # PF1 - Preparação da escolha e do pitch
 
+> **Atualização de 19/10/2026:** a rodada aleatória posterior selecionou Oficina em Prancha para validação. O [pitch atual](pitch-oficina-em-prancha.md) segue o limite de cinco minutos reiterado por Matheus. O planejamento abaixo preserva a preparação anterior à nova rodada.
+
 **Situação em 19/10/2026:** Matheus decidiu revisar a caixa antes de escolher uma ideia. Este material prepara a decisão; não representa uma escolha do grupo nem uma apresentação entregue.
 
 ## Comparação para orientar a conversa
