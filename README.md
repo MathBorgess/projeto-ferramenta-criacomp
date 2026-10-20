@@ -1,6 +1,6 @@
 # Projeto Ferramenta - Criatividade Computacional
 
-**Direção atual: Oficina em Prancha**, experiência para construir a narrativa de uma palestra/oficina vendo imagens, formas e cores. O contexto fica guardado numa skill interna e pode alimentar diferentes saídas, como pitch deck, LinkedIn e Instagram, por prompts e skills de formato. Consulte o [escopo atualizado em 20/10](docs/escopo-oficina-narrativa.md), o [pitch de até cinco minutos](docs/pitch-oficina-em-prancha.md) e a [seleção original com três agentes Luna e um crítico](docs/experimentos/2026-10-19-sorteio-rcd/README.md). O produto ainda não foi implementado.
+**Direção atual: Oficina em Prancha**, aplicativo desktop em Electron, para baixar e usar internamente. A pessoa constrói a narrativa de uma palestra/oficina vendo imagens, formas e cores. O contexto fica guardado numa skill interna e alimenta saídas como pitch deck, LinkedIn e Instagram, por prompts e skills de formato. O conteúdo será gerado e revisado dentro do aplicativo. Consulte o [escopo atualizado](docs/escopo-oficina-narrativa.md), o [pitch de até cinco minutos](docs/pitch-oficina-em-prancha.md) e a [seleção original](docs/experimentos/2026-10-19-sorteio-rcd/README.md). A construção do app terá um repositório privado separado; o produto ainda não foi implementado.
 
 A primeira exploração partiu destas três ideias de ferramenta:
 

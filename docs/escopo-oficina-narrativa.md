@@ -6,6 +6,8 @@
 
 A entrega central passa a ser uma **skill interna por palestra ou oficina**, construída a partir da narrativa e das decisões visuais do usuário. Durante a criação, a pessoa vê imagens, formas e cores. Ao final, escolhe um formato de saída, como pitch deck, post de LinkedIn ou conteúdo para Instagram. Cada opção combina o contexto da oficina com um prompt e uma skill próprios para gerar aquele conteúdo.
 
+O autor definiu **Electron como plataforma desktop**, com aplicativo baixável para uso interno, e um repositório privado separado para sua construção. A geração e a revisão das saídas acontecerão no próprio app. Sistemas operacionais-alvo, instaladores e fornecedor de IA ainda precisam ser definidos; uso interno não estabelece funcionamento integral sem internet.
+
 A [proposta sorteada](experimentos/2026-10-19-sorteio-rcd/proposta-02.md) tinha roteiro curto e prancha PNG como escolhas obrigatórias. A nova direção foi dada pelo autor depois da seleção. Ela altera o escopo; não deve ser apresentada como reprodução integral daquele caminho. Sorteio, prompts, propostas e parecer originais permanecem como evidência histórica. O [pitch anterior](https://github.com/MathBorgess/projeto-ferramenta-criacomp/blob/f7d3ef162595d01fd8ec685422e6d264cc658282/docs/pitch-oficina-em-prancha.md) documenta a entrega anterior.
 
 Esta skill interna pertence ao produto que estamos propondo. A skill genérica `morphological-project-design`, do skills-catalog, organiza o processo de escolher projetos; são artefatos com funções distintas.
@@ -14,22 +16,23 @@ Esta skill interna pertence ao produto que estamos propondo. A skill genérica `
 
 | Parte | Direção fornecida pelo autor | Recorte sugerido para desenvolvimento |
 | --- | --- | --- |
+| Plataforma | Aplicativo desktop Electron, baixável e utilizado internamente | Definir sistemas-alvo e empacotamento; construção em repositório privado separado |
 | Criação | Construir a narrativa vendo imagens, formas e cores | Blocos de narrativa ao lado de um painel visual, com sugestões de IA editáveis |
 | Contexto | Guardar todo o contexto da palestra/oficina numa skill interna | Separar instruções, contexto estruturado, decisões e arquivos visuais; salvar versões |
 | Saídas | Escolher formatos; exemplos: pitch deck, LinkedIn e Instagram | Três adaptadores limitados, reutilizando uma versão aprovada do contexto |
 | Geração | Cada formato usa prompt + skill | Carregar contexto da oficina + instruções do formato + pedido específico |
-| Entrega técnica | Ainda não detalhada pelo autor | Modo de entrega em aberto: conteúdo gerado na ferramenta, pacote para outro agente ou ambos |
+| Entrega técnica | Conteúdo gerado dentro da ferramenta, confirmado pelo autor em 20/10 | Geração, prévia, edição e salvamento no mesmo ambiente; contexto e skills usados internamente |
 
 O nome Oficina em Prancha e o foco inicial em facilitadores independentes são mantidos como continuidade da proposta, sem nova decisão de marca ou pesquisa de público.
 
 ## Experiência do usuário
 
-1. **Situar a oficina.** Informar tema, público, objetivo, duração e o que deseja que a audiência compreenda ou faça.
+1. **Abrir o app e situar a oficina.** No aplicativo instalado, informar tema, público, objetivo, duração e o que deseja que a audiência compreenda ou faça.
 2. **Construir a narrativa.** Organizar abertura, mensagem central, exemplos, atividades e fechamento. Pedir alternativas à IA e editar os blocos diretamente.
 3. **Explorar o visual enquanto escreve.** Ver imagens e combinações de formas e cores relacionadas aos blocos. Escolher referências, comparar sugestões e preservar o que já aprovou.
 4. **Salvar a base da oficina.** Guardar o contexto narrativo e visual aprovado. A pessoa pode fechar e reabrir o projeto sem repetir o briefing.
 5. **Escolher a saída.** Selecionar formato, objetivo daquele material e preferências. O conteúdo parte da oficina existente.
-6. **Revisar e concluir.** Se a geração ocorrer na ferramenta, comparar, editar e salvar o conteúdo ali. Se a entrega for um pacote, receber prompt, skill e contexto para gerar e revisar no agente de destino. Em ambos os casos, ligar a saída à versão utilizada, preservando versões anteriores.
+6. **Gerar, revisar e concluir na ferramenta.** Receber o conteúdo do formato escolhido, comparar com a narrativa, editar e salvar no mesmo ambiente. Ligar a saída à versão utilizada, preservando versões anteriores.
 
 Na interface, apresentar narrativa, referências visuais e saídas. A estrutura técnica da skill fica interna; não é necessário que o usuário saiba escrever ou instalar uma skill para criar sua oficina.
 
@@ -56,9 +59,10 @@ flowchart LR
   V[Imagens, formas e cores] --> C
   C --> S[Skill interna e versão salva]
   S --> P[Prompt e skill do formato escolhido]
-  P --> D[Pitch deck]
-  P --> L[LinkedIn]
-  P --> I[Instagram]
+  P --> G[Geração dentro da ferramenta]
+  G --> D[Pitch deck]
+  G --> L[LinkedIn]
+  G --> I[Instagram]
   D --> R[Revisão do usuário]
   L --> R
   I --> R
@@ -74,7 +78,7 @@ Os exemplos abaixo delimitam resultados testáveis. Regras de quantidade e taman
 | LinkedIn | Ideia central, voz, exemplos e objetivo de comunicação | Post editável com abertura, desenvolvimento e fechamento; opção de arte ligada ao visual aprovado |
 | Instagram | Sequência narrativa, trechos curtos e identidade visual | Carrossel em template com legenda e prévia dos cartões |
 
-A mudança pede opções de conteúdo; não define ainda extensões de arquivo. PPTX editável, PDF, PNG e pacote portátil de prompt + skill são decisões de entrega distintas. Recomenda-se começar com conteúdo editável e prévias em templates, evitando prometer um editor completo para cada formato. Downloads e suas extensões devem ser fechados antes de implementar os exportadores.
+A geração e a revisão do conteúdo acontecerão dentro da ferramenta, conforme decisão do autor em 20/10. O usuário escolhe o formato e recebe o conteúdo; prompt e skill são componentes internos dessa geração. As extensões de download, como PPTX editável, PDF ou PNG, ainda precisam ser definidas. Recomenda-se começar com conteúdo editável e prévias em templates, evitando prometer um editor completo para cada formato.
 
 ## Recorte de MVP proposto
 
@@ -83,7 +87,7 @@ A mudança pede opções de conteúdo; não define ainda extensões de arquivo. 
 - IA sugerindo texto e parâmetros visuais; usuário escolhe, edita e confirma.
 - Imagens fornecidas ou escolhidas pelo usuário no primeiro ciclo. Geração de imagens por modelo é uma extensão a avaliar; visualizar imagens já faz parte do ciclo mínimo.
 - Skill/contexto interno versionado e reaproveitado por três adaptadores simples.
-- Conforme o modo escolhido: prévia, edição e salvamento de conteúdo na ferramenta, preparação de pacote reutilizável ou ambos; exportação limitada aos formatos técnicos acordados.
+- Geração, prévia, edição e salvamento das saídas dentro da ferramenta; exportação limitada aos formatos técnicos acordados.
 
 Para esse recorte, não são necessários publicação automática nas redes, colaboração simultânea, um editor visual livre ou integração com clientes externos de agentes. Esses recursos não foram pedidos como requisitos do primeiro ciclo.
 
@@ -107,7 +111,7 @@ Hipótese de diferencial: manter as decisões narrativas e visuais aprovadas ao 
 | --- | --- |
 | Criação visual durante a narrativa | A pessoa vê e altera imagens, formas e cores antes de escolher uma saída |
 | Persistência | Fechar e reabrir mantém briefing, blocos, arquivos visuais e escolhas aprovadas |
-| Reutilização | Gerar os três formatos a partir da mesma versão, sem repetir o briefing |
+| Reutilização | Gerar, visualizar, editar e salvar os três formatos na ferramenta, a partir da mesma versão e sem repetir o briefing |
 | Fidelidade | Fatos, mensagem, voz e visual aprovado continuam reconhecíveis nas saídas |
 | Controle | Uma regeneração não apaga edições ou saídas anteriores |
 | Utilidade | Pessoa conclui o ciclo sem orientação por cima do ombro; registrar tempo e correções |
@@ -117,8 +121,9 @@ Os marcos acadêmicos registrados continuam sendo referências de planejamento: 
 
 ## Decisões de implementação ainda abertas
 
-- Conteúdo gerado dentro da ferramenta, pacote para outro agente ou ambos.
 - Extensões e nível de acabamento exigidos em cada saída.
+- Sistemas operacionais-alvo, instaladores e forma de distribuição interna.
+- Fornecedor/modelo de IA, credenciais e dependência de rede.
 - Divisão de trabalho e capacidade do grupo para cumprir o novo escopo.
 
 Método comercial de referência: [Revenue-Centric Design, Richard (@richardrx)](https://github.com/heliocosta-dev/revenue-centric-design/tree/1942760c2242f609bf63ce2c97204f5a1791bd68). Preservados os [termos completos aplicáveis](experimentos/2026-10-19-sorteio-rcd/RCD-LICENSE.txt).
