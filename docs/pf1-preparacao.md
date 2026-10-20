@@ -1,5 +1,7 @@
 # PF1 - Preparação da escolha e do pitch
 
+> **Atualização de 20/10/2026:** o autor mudou a direção para narrativa com apoio visual, skill interna e múltiplos formatos de saída. Consulte o [escopo atual](escopo-oficina-narrativa.md) e o [pitch revisto](pitch-oficina-em-prancha.md). A preparação abaixo permanece como histórico.
+
 > **Atualização de 19/10/2026:** a rodada aleatória posterior selecionou Oficina em Prancha para validação. O [pitch atual](pitch-oficina-em-prancha.md) segue o limite de cinco minutos reiterado por Matheus. O planejamento abaixo preserva a preparação anterior à nova rodada.
 
 **Situação em 19/10/2026:** Matheus decidiu revisar a caixa antes de escolher uma ideia. Este material prepara a decisão; não representa uma escolha do grupo nem uma apresentação entregue.

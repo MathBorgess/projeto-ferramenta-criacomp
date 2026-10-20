@@ -1,127 +1,90 @@
 # Pitch Oficina em Prancha
 
-**Projeto Ferramenta | PF1 | duração máxima de cinco minutos.** Ideia selecionada na [rodada morfológica com três agentes Luna e um crítico](experimentos/2026-10-19-sorteio-rcd/README.md). O produto é uma proposta; o MVP e a validação comercial ainda serão realizados.
+**Projeto Ferramenta | PF1 | máximo de cinco minutos.** Atualizado em 20/10/2026 para a direção de narrativa visual, skill interna e múltiplas saídas. O produto permanece uma proposta, sem MVP ou validação comercial realizados.
 
-Apresentar somente o roteiro falado. Os quadros de apoio ficam para perguntas e preparação. Os tempos são metas para ensaio; reservar os últimos vinte segundos para pausas. O limite de cinco minutos segue a orientação mais recente de Matheus nesta conversa.
+A [mudança de escopo](escopo-oficina-narrativa.md) foi informada pelo autor depois da seleção morfológica. O [pitch anterior](https://github.com/MathBorgess/projeto-ferramenta-criacomp/blob/f7d3ef162595d01fd8ec685422e6d264cc658282/docs/pitch-oficina-em-prancha.md) e as [propostas originais](experimentos/2026-10-19-sorteio-rcd/README.md) permanecem como histórico. A nova direção não foi submetida a outra rodada de seleção.
 
-O roteiro tem **527 palavras**. A 120 palavras por minuto, a estimativa textual é de cerca de **4min24s**, antes das pausas. A duração real depende do ensaio com cronômetro.
+Apresentar somente os blocos marcados como fala. A duração abaixo é uma estimativa textual, sem ensaio humano.
+
+**Duração estimada:** 492 palavras; 4min06s a 120 palavras/minuto. Com 30 segundos de pausas: 4min36s. Sem ensaio humano.
 
 ## Roteiro falado
 
-### 0:00 a 0:40 O que queremos criar e para quem
+### O que é e para quem
 
 <!-- fala:inicio -->
-Quem vende oficinas precisa preparar uma experiência que faça sentido para cada público. Nossa proposta é a Oficina em Prancha: uma ferramenta com IA para facilitadores independentes criarem um roteiro curto e transformá-lo em uma prancha visual. O foco inicial é quem já tem uma oficina contratada e precisa preparar seu material. Queremos ajudar essa pessoa a experimentar aberturas, organizar instruções e escolher uma apresentação visual, mantendo sua voz. O resultado será um material criado pelo próprio facilitador, pronto para apoiar a condução da atividade.
+Quem prepara uma palestra ou oficina precisa construir uma narrativa e depois adaptá-la para diferentes materiais. Nossa proposta é a Oficina em Prancha: uma ferramenta com IA em que a pessoa desenvolve essa narrativa enquanto vê e escolhe imagens, formas e cores. O foco inicial continua sendo facilitadores e palestrantes que usam esse conteúdo no trabalho. Queremos que o contexto criado permaneça disponível e possa alimentar outras entregas, sem começar cada material com um novo briefing.
 <!-- fala:fim -->
 
-### 0:40 a 1:30 Como a pessoa vai interagir
+### Como a pessoa cria
 
 <!-- fala:inicio -->
-Imagine uma oficina de ideação para pequenos empreendedores. O facilitador informa a ideia e o público e escreve seus blocos de abertura, atividade e fechamento. A IA sugere formas e cores para organizar esse conteúdo. A pessoa seleciona uma região, conversa sobre o que quer mudar e compara dois ganchos lado a lado. Pode misturar alternativas e editar o texto sem perder os blocos anteriores. Antes de exportar, recebe alertas de contraste e legibilidade. Ao final, baixa uma prancha PNG. A IA propõe; o facilitador decide o que entra na oficina.
+Imagine uma oficina de ideação para pequenos empreendedores. A pessoa informa público, objetivo e duração, organiza a abertura, os exemplos, a atividade e o fechamento. Ao lado do texto, vê um painel visual. A IA sugere alternativas de narrativa e composição; o usuário escolhe referências, troca cores e formas e edita os blocos. As escolhas aprovadas são guardadas numa skill interna da oficina, junto com seu contexto e os arquivos visuais. A pessoa pode fechar e retomar o projeto. Ela não precisa escrever ou instalar uma skill: interage com sua narrativa e seus materiais.
 <!-- fala:fim -->
 
-### 1:30 a 2:10 Qual benefício pode sustentar a cobrança
+### O que acontece no final
 
 <!-- fala:inicio -->
-Nossa hipótese comercial é cobrar cento e quarenta e nove reais por uma prancha para uma oficina. O comprador seria o facilitador que já recebe pela atividade e reconhece valor no preparo do material. Esse preço ainda precisa ser testado. Um cenário hipotético de estresse, incluindo trabalho e aquisição do cliente, deixa apenas treze reais por venda antes de impostos. Por isso, não estamos apresentando um negócio validado. Precisamos observar se alguém paga, consegue criar sem ajuda e recebe um benefício que justifique o preço.
+Com essa base pronta, o usuário escolhe uma saída: por exemplo, um pitch deck, um post de LinkedIn ou um carrossel para Instagram. Cada formato tem um prompt e uma skill próprios, que trabalham com o mesmo contexto aprovado. Estamos fechando se a geração ocorrerá aqui ou por um pacote para outro agente. O objetivo é adaptar a mensagem ao formato, preservando fatos, voz e escolhas visuais. O usuário revisa e edita o resultado. Uma nova geração deve criar outra versão, mantendo o trabalho anterior disponível.
 <!-- fala:fim -->
 
-### 2:10 a 2:55 O que já existe e onde queremos diferenciar
+### Benefício, similares e diferença a testar
 
 <!-- fala:inicio -->
-Miro já combina criação com IA e quadros colaborativos, inclusive para preparar oficinas. Canva permite gerar materiais visuais e refiná-los com controle humano. Nossa hipótese é que um fluxo dedicado à oficina ajude a preservar blocos, comparar ganchos e combinar escolhas visuais antes da exportação. Vamos compará-lo com Miro ou Canva usando o mesmo conteúdo e medir tempo, retrabalho e preservação. A revisão de acessibilidade será uma triagem; um PNG não garante acesso por leitores de tela nem conformidade completa.
+Nossa hipótese de valor é reduzir rebriefing, correções e inconsistências entre materiais da mesma oficina. Miro e Canva fazem parte do levantamento anterior de similares. Agora precisamos comparar o fluxo completo: construir, retomar e adaptar a narrativa para várias saídas. Não demonstramos uma vantagem competitiva. Também precisamos testar disposição a pagar e medir geração, armazenamento, revisões e suporte. O preço pensado para uma prancha PNG pertence ao escopo anterior e será recalculado para essa nova entrega.
 <!-- fala:fim -->
 
-### 2:55 a 3:45 Quais tecnologias planejamos usar
+### Tecnologias e recorte
 
 <!-- fala:inicio -->
-Planejamos uma interface web em React e TypeScript, com Vite. Uma API Python com FastAPI vai organizar os pedidos e validar as respostas do modelo. A IA entra durante o uso, propondo formas, cores e variações a partir do conteúdo selecionado. Começaremos com um modelo de texto acessado por API, sem treinar modelo próprio. A composição visual usará elementos simples, e o navegador fará a exportação PNG. SQLite poderá guardar rascunhos e versões. No primeiro protótipo, queremos um único fluxo que funcione de ponta a ponta.
+Planejamos uma interface web com React e TypeScript, uma API para o modelo de linguagem e persistência do contexto e das imagens. A skill da oficina e os adaptadores de formato serão separados. Para o primeiro protótipo, propomos blocos editáveis e templates visuais limitados. Imagens fornecidas pelo usuário permitem testar a experiência antes de integrar geração de imagens. As extensões de download ainda precisam ser definidas; gerar conteúdo e entregar um arquivo editável diagramado exigem trabalhos diferentes.
 <!-- fala:fim -->
 
-### 3:45 a 4:40 Por que cabe no projeto e como vamos verificar
+### Viabilidade e verificação
 
 <!-- fala:inicio -->
-Até vinte e sete de outubro, queremos fechar o protótipo de baixa fidelidade e a arquitetura. Até dez de novembro, completar criação, comparação e exportação. Em doze de novembro, outra pessoa deverá usar a ferramenta sem explicação por cima do ombro. O congelamento será em dezessete de novembro. Escolhemos essa ideia porque seu escopo estático parece mais viável que uma sala jogável, enquanto o público está ligado a uma atividade remunerada. O teste comercial proposto é obter três pagamentos entre dez ofertas qualificadas e medir todos os custos. Se o valor não aparecer, teremos motivo concreto para rever a proposta.
+O primeiro teste técnico será salvar uma oficina visual, reabri-la e gerar duas saídas sem repetir o briefing. A meta proposta é chegar aos três formatos. Os marcos registrados são arquitetura e baixa fidelidade em vinte e sete de outubro, ciclo ponta a ponta em dez de novembro, teste externo em doze e congelamento em dezessete. Outra pessoa deverá concluir o fluxo sem nossa explicação. Vamos observar preservação do conteúdo, tempo, correções e custo. A estimativa de esforço será refeita para este escopo.
 <!-- fala:fim -->
 
-## Apoio para responder às seis perguntas
+## Apoio para responder às perguntas de PF1
 
-| Pergunta de PF1 | Resposta no projeto |
+| Pergunta | Resposta no projeto |
 | --- | --- |
-| O que é, para que serve e como funciona? | Ferramenta híbrida para criar roteiro curto e prancha visual de uma oficina, com sugestões de IA e decisões do facilitador. |
-| Quem usa e como se beneficia? | Facilitadores independentes com oficinas contratadas; hipótese de reduzir montagem e retrabalho. Benefício será medido, sem presumir receita adicional. |
-| Como interage? | Ideia e público → blocos → selecionar e conversar → comparar ganchos → misturar alternativas → revisar → exportar PNG. |
-| Quais similares e tasks? | Miro AI e Canva, com fontes oficiais e links de Supported features do There's An AI For That fornecidos por Matheus. O material recebido não identifica uma task específica; ver a distinção abaixo. |
-| Quais ferramentas e tecnologias? | React, TypeScript, Vite, FastAPI/Pydantic, SQLite, API de modelo textual e exportação PNG no navegador; escolhas de planejamento, sem instalação nesta etapa. |
-| Viabilidade e cronograma? | Uma pessoa cria uma prancha por vez; composição por formas e texto; sem treino de modelo, editor genérico ou colaboração simultânea no MVP. Marcos de 27/10 a 26/11 abaixo. |
+| O que é e como funciona? | Criação de narrativa com painel visual; contexto guardado numa skill interna e reutilizado por adaptadores de saída. |
+| Público e benefício? | Foco inicial proposto em facilitadores e palestrantes profissionais; reduzir repetição de briefing e retrabalho é hipótese ainda não medida. |
+| Interação? | Briefing → narrativa e escolhas visuais → base salva → seleção de formato → geração → revisão e nova versão. |
+| Similares, tasks e diferença? | [Levantamento de 19/10](referencias/2026-10-19-taaft-miro-canva.md) com Miro AI e Canva AI/Magic Design. Os trechos fornecidos contêm Supported features, sem tasks específicas verificadas. Comparação do novo escopo ainda pendente. |
+| Tecnologias? | React/TypeScript, API de modelo textual, persistência de contexto/arquivos, prompts por formato e renderização por templates; decisões de planejamento. |
+| Viabilidade e cronograma? | Um usuário por projeto, templates limitados e teste cedo de persistência/reutilização. Marcos registrados abaixo; esforço anterior não se transfere automaticamente. |
+
+## Entregas e limites propostos
+
+| Marco registrado | Entrega a planejar no novo escopo |
+| --- | --- |
+| 27/10 | Baixa fidelidade, estrutura do contexto interno e resultado mínimo de cada saída definidos |
+| 10/11 | Narrativa visual, salvamento/reabertura e geração pelos adaptadores num ciclo completo |
+| 12/11 | Outra pessoa completa o fluxo; registrar dificuldades e fidelidade entre saídas |
+| 17/11 | Congelamento do recorte que passou pelos testes |
+| 26/11 | Avaliação cruzada e post-mortem com resultados e limitações |
+
+Datas registradas nos enunciados consultados em 19/10; não foram consultadas novamente nesta atualização. O novo planejamento exige confirmar capacidade e responsabilidades do grupo, formatos técnicos de exportação e se a entrega deve incluir um pacote portátil de prompt + skill.
+
+A direção confirmada pede imagens, formas e cores visíveis durante a criação, contexto interno e escolha de formatos. O uso de templates, o público inicial mantido e a forma de armazenamento são propostas de implementação. Não há autorização de publicação automática nas redes ou lançamento comercial nesta preparação.
 
 ## Similares e referências do catálogo
 
-Fontes oficiais consultadas em 19/10/2026 e rótulos do catálogo fornecidos por Matheus na mesma data. A comparação descreve capacidades documentadas; nenhum teste de uso dos produtos foi realizado nesta rodada.
+A comparação de Miro e Canva foi feita para a prancha visual anterior, com fontes e datas no [registro preservado](referencias/2026-10-19-taaft-miro-canva.md). A hipótese atual é preservar decisões narrativas e visuais entre formatos com menos rebriefing e correções. Ela deve ser comparada ao fluxo habitual do público com o mesmo conteúdo e entregas equivalentes. Não alegar exclusividade por usar uma skill internamente.
 
-| Produto | Capacidade documentada semelhante | Diferença a testar na Oficina em Prancha | Supported features recebidas do There's An AI For That |
-| --- | --- | --- | --- |
-| [Miro AI](https://help.miro.com/hc/en-us/articles/36650745968914-Miro-AI-board-layout-with-Sidekicks-and-Flows) | Gera quadros estruturados e editáveis por instruções; a documentação inclui planos de oficina | Preservação dos blocos, comparação de ganchos e composição em um fluxo dedicado; utilidade adicional ainda não demonstrada | [Team Collaboration](https://theresanaiforthat.com/feature/team-collaboration/), [Visual Creation](https://theresanaiforthat.com/feature/visual-creation/) e [Image Generation](https://theresanaiforthat.com/feature/imagegen/); demais rótulos no registro abaixo |
-| Canva AI no texto recebido; [Magic Design](https://www.canva.com/magic-design/) como destino informado | A página oficial do Magic Design descreve geração por instruções, personalização no editor e exportação PNG | Comparar aberturas e preservar blocos durante o preparo da oficina; criação visual e controle humano já são capacidades das alternativas | [Integrations](https://theresanaiforthat.com/feature/integrations/), [SynthID](https://theresanaiforthat.com/feature/synthid/), [Outpainting](https://theresanaiforthat.com/feature/outpainting/) e [Inpainting](https://theresanaiforthat.com/feature/inpainting/), associados a Canva AI no trecho recebido |
+## Hipótese comercial a reestimar
 
-O [registro das referências recebidas](referencias/2026-10-19-taaft-miro-canva.md) preserva os dez rótulos e seus links. O material usa **Supported features**, sem indicar uma task específica ou a URL da ficha de cada produto no catálogo. O acesso direto ao domínio foi bloqueado pelo navegador; os links de features têm como fonte a mensagem de Matheus. Essa distinção mantém visível o limite em relação ao pedido de tasks de PF1. As afirmações antigas sobre beta ou gratuidade do Miro não foram usadas como informação atual.
+Os R$149 de preço, R$13 de contribuição no cenário de estresse e quarenta horas de esforço estavam associados ao produto anterior. Não são estimativas desta nova versão. Recalcular custos e definir quantidade de formatos/revisões antes de propor uma oferta. Nenhum pagamento, economia, receita adicional ou benefício do cliente foi observado.
 
-A diferenciação será comparada com o mesmo conteúdo em Miro ou Canva, usando também um modelo de linguagem quando fizer parte do fluxo habitual da pessoa. Medir tempo até uma prancha útil, retrabalho e preservação dos blocos; depois verificar se a vantagem percebida justifica o preço. Nenhuma dessas vantagens foi observada nesta rodada.
+## Preparação da apresentação
 
-## Tecnologias e fronteiras do MVP
+- [ ] Ensaiar os blocos de fala e permanecer abaixo de cinco minutos.
+- [ ] Confirmar resultado mínimo e extensão de arquivo de cada formato.
+- [ ] Definir se haverá conteúdo gerado na ferramenta, pacote portátil ou ambos.
+- [ ] Completar as tasks específicas do catálogo com evidência, sem confundir features com tasks.
+- [ ] Confirmar responsabilidades do grupo e registrar o link na planilha da disciplina.
 
-| Parte | Plano | Verificação necessária |
-| --- | --- | --- |
-| Interface | React e TypeScript com [Vite](https://vite.dev/guide/); formulário, blocos e comparação | Uma pessoa completar o fluxo sem explicação externa |
-| API | [FastAPI](https://fastapi.tiangolo.com/) e validação com Pydantic | Rejeitar resposta inválida e preservar o rascunho |
-| IA no produto | Um modelo textual por API; [OpenRouter](https://openrouter.ai/docs/quickstart) é o adaptador candidato | Escolher modelo, medir custo/latência e explicar o acesso à chave na própria interface; sem contratação nesta etapa |
-| Composição | Formas, texto e paletas em SVG/Canvas; sugestões da IA viram parâmetros editáveis | Mistura de alternativas sem apagar texto ou blocos preservados |
-| Saída | PNG pelo [Canvas do navegador](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toBlob) | Imagem exportada corresponder à versão escolhida |
-| Estado | SQLite para rascunhos e versões; chaves fora dos dados versionados | Recuperar rascunho e não sobrescrever trabalho manual |
-| Revisão | Regras de contraste/legibilidade e avisos textuais | Triagem visual, sem certificação ou garantia de acessibilidade integral; [referência W3C](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) |
-
-Esses componentes ainda não foram implementados. O repositório contém atualmente o gerador de caixa, o sorteio e os documentos de exploração.
-
-## Conta comercial e critério de validação
-
-Uma unidade proposta é um roteiro curto com prancha PNG para uma oficina. Todas as cifras são hipóteses de planejamento; nenhuma venda, custo operacional ou economia do cliente foi observado.
-
-| Item por venda | Cenário de estresse do crítico |
-| --- | ---: |
-| Preço hipotético | R$149 |
-| IA, infraestrutura e pagamento | R$11 |
-| Operação e suporte: 45 min a R$60/h | R$45 |
-| Aquisição: 4 h a R$60/h para 3 compradores | R$80 |
-| Contribuição antes de impostos e demais custos omitidos | **R$13** |
-
-Desenvolvimento imputado: R$2.400; recuperação nesse cenário: **185 vendas**, sem despesas adicionais. Mais quinze minutos de trabalho por venda tornam a contribuição negativa. Portanto, há uma oferta cobrável definida e uma conta auditável, mas retorno financeiro ainda precisa ser demonstrado.
-
-Benefício econômico do cliente = gasto efetivamente evitado + horas reaproveitáveis × valor/hora − preço − custo da revisão, sem contar duas vezes a mesma economia. O tempo poupado só vira entrada de caixa se houver capacidade efetivamente vendida ou despesa evitada.
-
-Teste futuro proposto: um canal de facilitadores com acesso confirmado, dez ofertas qualificadas, até quatro horas comerciais, três pagamentos integrais, exportação autônoma e contribuição **medida de pelo menos R$15 por venda após todos os custos**. Sem pagamento ou com contribuição não positiva, interromper a oferta. Um ou dois pagamentos serão inconclusivos. O teste não foi iniciado.
-
-## Cronograma de desenvolvimento
-
-| Marco | Entrega proposta | Critério de conclusão |
-| --- | --- | --- |
-| 20/10 | Pitch e recorte do projeto | Explicar produto, público, fluxo, similares, tecnologias e plano |
-| 27/10 | Baixa fidelidade e arquitetura | Caminho do usuário representado e dependência do modelo escolhida para ensaio |
-| 28/10 a 09/11 | Implementação do ciclo mínimo | Entrada, sugestão da IA, edição, comparação, revisão e PNG integrados |
-| 10/11 | Ponta a ponta | Uma criação completa exportada com modelo em ação |
-| 12/11 | Uso por outro grupo | Pessoa concluir sem explicação por cima do ombro; dificuldades registradas |
-| 13 a 16/11 | Correções do ciclo central | Impedimentos de uso corrigidos e custos medidos |
-| 17/11 | Congelamento | Versão reproduzível, instruções na interface e acesso ao modelo explicado |
-| 26/11 | Avaliação cruzada e post-mortem | Versão acessível e relato do processo, resultados e limites |
-
-As quarenta horas estimadas pelo proponente são uma hipótese para o escopo mínimo. Disponibilidade e divisão de trabalho do grupo ainda precisam ser definidas. A primeira revisão de viabilidade deve verificar preservação dos blocos, custo das sugestões e qualidade do PNG.
-
-## Ensaio e fechamento da entrega
-
-- [ ] Ensaiar apenas o roteiro falado com cronômetro e ficar abaixo de cinco minutos.
-- [x] Registrar os dez rótulos e links de Supported features fornecidos por Matheus, mantendo explícita a diferença em relação a tasks.
-- [ ] Identificar a task específica associada a cada similar; os trechos recebidos trazem features, sem esse campo.
-- [ ] Confirmar responsabilidades e o recorte que o grupo pretende desenvolver.
-- [ ] Se houver demonstração em baixa fidelidade, identificá-la como simulação.
-- [ ] Colocar o link da apresentação na planilha de Definição de Grupos.
-
-Seleção e raciocínio comercial: [parecer do advogado do diabo](experimentos/2026-10-19-sorteio-rcd/selecao-advogado-do-diabo.md). Método: [Revenue-Centric Design, de Richard (@richardrx), curadoria heliocosta-dev](https://github.com/heliocosta-dev/revenue-centric-design/tree/1942760c2242f609bf63ce2c97204f5a1791bd68); [termos de uso do material RCD e suas adaptações nesta rodada](experimentos/2026-10-19-sorteio-rcd/RCD-LICENSE.txt).
+Método comercial: [Revenue-Centric Design, Richard (@richardrx)](https://github.com/heliocosta-dev/revenue-centric-design/tree/1942760c2242f609bf63ce2c97204f5a1791bd68); [termos completos aplicáveis](experimentos/2026-10-19-sorteio-rcd/RCD-LICENSE.txt).

@@ -55,3 +55,13 @@ Matheus solicitou três combinações aleatórias da caixa, três agentes Luna e
 O crítico selecionou Oficina em Prancha para validação paga; nenhuma proposta justificou investimento com a evidência disponível. Em seguida, por novo pedido de Matheus, foi preparado o [documento do pitch](pitch-oficina-em-prancha.md), com limite de cinco minutos, tecnologias propostas e cronograma. As tasks do There's An AI For That aguardam rótulos e links do usuário, porque o navegador bloqueou o acesso ao domínio por sua política de segurança. Essa lacuna não foi preenchida por suposição.
 
 **Complemento em 19/10/2026:** Matheus enviou as descrições de Miro AI e Canva AI e dez links classificados como **Supported features**. Os [rótulos recebidos](referencias/2026-10-19-taaft-miro-canva.md) foram incorporados ao pitch, sem convertê-los em tasks. A comparação foi ajustada após consultar as páginas oficiais: Miro já documenta planos editáveis de oficina e Canva já oferece criação, edição e exportação visual. O diferencial passou a explicitar a hipótese de utilidade do fluxo, a verificar por tempo, retrabalho, preservação dos blocos e disposição a pagar. Não houve teste dos produtos, validação comercial ou nova geração das propostas dos agentes.
+
+## Mudança de direção em 20/10/2026
+
+O autor informou que a entrega deve criar e guardar internamente uma skill com o contexto da palestra/oficina e suas partes visuais. Durante a construção da narrativa, o usuário vê imagens, formas e cores. No final, escolhe formatos como pitch deck, LinkedIn e Instagram; cada opção usa prompt e skill para gerar conteúdos daquela oficina.
+
+O [escopo atualizado](escopo-oficina-narrativa.md) distingue essa decisão das sugestões de implementação: estrutura do contexto, versões, templates e resultados mínimos de cada formato. O pitch e a entrada do README foram revistos para a nova direção. O nome e o público inicial foram mantidos provisoriamente; preço, custos e esforço da proposta anterior não foram reaproveitados como se continuassem válidos.
+
+A mudança foi informada após a seleção; altera a entrega central de roteiro curto e prancha PNG. Caixa, caminhos, prompts, propostas, execuções e parecer originais foram preservados. Não houve novo sorteio ou nova decisão dos agentes. O contexto interno por oficina é parte do produto proposto, distinto da skill genérica de exploração criada no skills-catalog.
+
+Esta atualização documenta produto e pitch. Não implementa o MVP, não gera materiais de uma oficina real e não demonstra ganho de tempo, disposição a pagar ou receita. A comparação específica de concorrentes para o novo escopo ainda precisa ser feita; o bloqueio anterior do TAAFT não foi contornado.
