@@ -1,0 +1,53 @@
+[
+  {
+    "id": "escape-room-ai",
+    "nome": "EscapeRoom AI",
+    "escolhas": {
+      "Quem cria": "Docentes",
+      "O que cria": "Sala de enigmas",
+      "Como começa": "Tema e dificuldade",
+      "O que IA sugere": "Enigmas e pistas",
+      "Como interage": "Editor de sequência",
+      "Como controla": "Editar e ordenar",
+      "O que preserva": "Soluções e ordem",
+      "Como revisa": "Coerência e solução",
+      "Como compara": "Percursos lado a lado",
+      "Como entrega": "Sala para jogar",
+      "Papel da IA": "Híbrida"
+    }
+  },
+  {
+    "id": "roteirolab",
+    "nome": "RoteiroLab",
+    "escolhas": {
+      "Quem cria": "Criadores de conteúdo",
+      "O que cria": "Roteiro curto",
+      "Como começa": "Ideia e público",
+      "O que IA sugere": "Ganchos e blocos",
+      "Como interage": "Editor de blocos",
+      "Como controla": "Fixar e reescrever",
+      "O que preserva": "Voz e blocos",
+      "Como revisa": "Clareza e duração",
+      "Como compara": "Ganchos lado a lado",
+      "Como entrega": "Roteiro cronometrado",
+      "Papel da IA": "Híbrida"
+    }
+  },
+  {
+    "id": "arena-visual",
+    "nome": "Arena Visual",
+    "escolhas": {
+      "Quem cria": "Designers iniciantes",
+      "O que cria": "Rascunho visual",
+      "Como começa": "Rabisco e intenção",
+      "O que IA sugere": "Formas e cores",
+      "Como interage": "Lousa por turnos",
+      "Como controla": "Travar regiões",
+      "O que preserva": "Traços e intenção",
+      "Como revisa": "Intenção e composição",
+      "Como compara": "Pranchas lado a lado",
+      "Como entrega": "Prancha PNG",
+      "Papel da IA": "Híbrida"
+    }
+  }
+]

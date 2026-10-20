@@ -1,17 +1,11 @@
-Ondas: Saw Brass, Square Bass, Tri Bass, Sine Pad, Detuned Saws
-Synths: DX Strings, DX Piano, Prophet Brass, Jupiter Pad, Moog Bass
-Função: Pad, Lead, Piano, Brass, Arp, Bass, Organ, FX
-Época: 80s Brass, 90s Lead
-Instrumento: Guitar, Flute, Marimba, Harmonica, Sax, Basoon, English Horn
-Vozes: Monofônicos, Polifônicos
-Discos ou Clichês: Orchestral Hit, Brian Eno Pad, Africa Pluck (Toto)
-Estilo Musical: Psy Bass, House Bass, Disco Lead
-Natureza Timbre: Pluck, Plik Plok, Mod, Acid, Smooth, Glide
-Sensação: Fairy Strings, Magic Book
-Objetivos: Sonoros, Performáticos Corporais
-One Knob: Entra uma coisa, Sai outra
-Perfil: Pop, Experimental
-Sensações Físicas: Contração Músculo, Tensão, Relaxamento
-Synth One Cat.: Arp/Seq, Poly, Pad, Lead, Bass, Pluck
-FM2: Keys/EP, Epic/Pad, Brass/Orch, Pluck/Bell, Bass/Deep, Lead/Synth, Arp/Seq
-GarageBand Teclado: Synth Classics, Synth Bass, Synth Leads, Synth Pads, FX, Other
+Quem cria: Docentes, Criadores de conteúdo, Designers iniciantes, Mediadores de oficinas
+O que cria: Rascunho visual, Sala de enigmas, Roteiro curto, Narrativa interativa
+Como começa: Ideia e público, Rabisco e intenção, Tema e dificuldade, Referência autorizada
+O que IA sugere: Ganchos e blocos, Formas e cores, Enigmas e pistas, Variações de estrutura
+Como interage: Lousa por turnos, Editor de sequência, Editor de blocos, Seleção e conversa
+Como controla: Travar regiões, Editar e ordenar, Fixar e reescrever, Misturar alternativas
+O que preserva: Voz e blocos, Traços e intenção, Soluções e ordem, Referências e histórico
+Como revisa: Intenção e composição, Coerência e solução, Clareza e duração, Acessibilidade
+Como compara: Antes e depois, Percursos lado a lado, Ganchos lado a lado, Pranchas lado a lado
+Como entrega: Roteiro cronometrado, Prancha PNG, Sala para jogar, Projeto editável
+Papel da IA: Suporte, Geração, Híbrida
