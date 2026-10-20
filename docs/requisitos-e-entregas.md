@@ -63,7 +63,8 @@ O lançamento fixa **23h59 de 26/11** para post-mortem, relatório individual e 
 
 - [ ] Revisar a caixa e confirmar a divergência em relação ao Projeto Autoral.
 - [ ] Fechar a escolha e a divisão de trabalho do grupo. Depois da revisão inicial, a [rodada solicitada com agentes](experimentos/2026-10-19-sorteio-rcd/README.md) selecionou Oficina em Prancha para validação, com justificativa e objeções registradas.
-- [ ] Experimentar os similares e identificar suas tasks no There's An AI For That.
+- [x] Registrar as [Supported features de Miro AI e Canva AI](referencias/2026-10-19-taaft-miro-canva.md) e seus links, fornecidos por Matheus em 19/10.
+- [ ] Experimentar os similares; uma task específica do There's An AI For That não consta nos trechos recebidos.
 - [ ] Fechar público inicial, recorte técnico e responsabilidades.
 - [ ] Ensaiar a apresentação de até cinco minutos a partir do [documento preparado](pitch-oficina-em-prancha.md).
 - [ ] Inserir seu link na planilha de Definição de Grupos.

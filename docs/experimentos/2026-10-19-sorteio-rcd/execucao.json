@@ -75,8 +75,9 @@
   "pitch": {
     "arquivo": "../../pitch-oficina-em-prancha.md",
     "limite_minutos": 5,
-    "palavras_faladas": 532,
+    "palavras_faladas": 527,
     "duracao_real": "não ensaiada",
-    "tasks_taaft": "Aguardam rótulos e links do usuário; acesso bloqueado pela política de segurança do navegador."
+    "tasks_taaft": "Dez rótulos e links de Supported features fornecidos por Matheus em 19/10/2026; task específica e fichas do catálogo não fornecidas. Acesso direto ao catálogo bloqueado pelo navegador.",
+    "referencias_taaft": "../../referencias/2026-10-19-taaft-miro-canva.md"
   }
 }
