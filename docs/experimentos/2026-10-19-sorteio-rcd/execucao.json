@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "autorizacao": "Pedido explícito de Matheus nesta conversa: três Luna em paralelo, mais um agente crítico ao final.",
+  "sorteio": "sorteio.json",
+  "proponentes": [
+    {
+      "agente": "/root/proposta_01_luna",
+      "modelo_solicitado": "gpt-6-luna",
+      "historico": "none",
+      "prompt": "prompts/proposta-01.md",
+      "saida": "proposta-01.md",
+      "saida_sha256": "f9425d78f5eedb35142702ead1388384d71b6d4be98029c2ff403bef2f748476",
+      "status": "concluido"
+    },
+    {
+      "agente": "/root/proposta_02_luna",
+      "modelo_solicitado": "gpt-6-luna",
+      "historico": "none",
+      "prompt": "prompts/proposta-02.md",
+      "saida": "proposta-02.md",
+      "saida_sha256": "640575a8e7f0bbb8dc19453a43657271f3a637f55b1444ce459c2006682dedeb",
+      "status": "concluido"
+    },
+    {
+      "agente": "/root/proposta_03_luna",
+      "modelo_solicitado": "gpt-6-luna",
+      "historico": "none",
+      "prompt": "prompts/proposta-03.md",
+      "saida": "proposta-03.md",
+      "saida_sha256": "30bf99069e84214e76b3c60c0907c2ce148cb05ba7e542e1007d1135742320c3",
+      "status": "concluido"
+    }
+  ],
+  "paralelismo": {
+    "fonte": "collaboration.list_agents após os três despachos",
+    "snapshot": {
+      "/root": "running",
+      "/root/proposta_01_luna": "running",
+      "/root/proposta_02_luna": "running",
+      "/root/proposta_03_luna": "running"
+    }
+  },
+  "critico": {
+    "agente": "/root/advogado_do_diabo",
+    "modelo": "Sem override; herdado do runtime do agente principal, identificador exato não exposto.",
+    "historico": "none",
+    "prompt": "prompts/advogado-do-diabo.md",
+    "status": "concluido",
+    "saida": "selecao-advogado-do-diabo.md",
+    "saida_sha256": "745c438b0786d9eae1b8e7ae2e2eae12cec410709e9abb0caeabdd138fca7ba6",
+    "escolha": "proposta-02",
+    "escopo_da_escolha": "Candidata à validação paga; nenhuma pronta para investimento."
+  },
+  "skill": {
+    "origem": "https://github.com/heliocosta-dev/revenue-centric-design",
+    "commit": "1942760c2242f609bf63ce2c97204f5a1791bd68",
+    "autor_dos_principios": "Richard (@richardrx)",
+    "modo": "Leitura do SKILL.md e referências pertinentes; sem instalação global."
+  },
+  "runtime": {
+    "cliente": "Codex local com ferramenta collaboration",
+    "python": "3.12.1",
+    "sistema": "Darwin",
+    "arquitetura": "arm64",
+    "scripts_de_modelo_executados": false,
+    "observacao": "Modelos acionados pelo orquestrador, não pelo script de sorteio."
+  },
+  "verificacao": {
+    "testes_unittest": 6,
+    "resultado": "pass",
+    "replay_sequencias_e_tentativas": "pass",
+    "sha_entrada_confere": "pass",
+    "sha_script_sorteio": "1e907dc8eb60e4e6ab87868e479afec2491986f2d001d276dbd95b59877f6978"
+  },
+  "pitch": {
+    "arquivo": "../../pitch-oficina-em-prancha.md",
+    "limite_minutos": 5,
+    "palavras_faladas": 532,
+    "duracao_real": "não ensaiada",
+    "tasks_taaft": "Aguardam rótulos e links do usuário; acesso bloqueado pela política de segurança do navegador."
+  }
+}

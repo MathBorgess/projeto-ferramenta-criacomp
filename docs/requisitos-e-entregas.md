@@ -39,6 +39,8 @@ Prazo informado: **20/10/2026**. O e-mail não informa horário.
 
 Preparar uma fala de três minutos atende aos dois limites. Essa é uma decisão de preparação, sem afirmar que o professor esclareceu a divergência. PF0 também menciona apresentações na próxima segunda-feira, enquanto o calendário do lançamento indica terça, 20/10; conferir o horário e a dinâmica em aula.
 
+**Atualização de direção em 19/10:** Matheus reiterou o limite de **cinco minutos** para o documento atual. O [pitch da Oficina em Prancha](pitch-oficina-em-prancha.md) segue essa orientação; a recomendação conservadora de três minutos acima pertence à preparação anterior.
+
 ## Condições do Projeto Ferramenta
 
 O lançamento exige uma ferramenta com **IA no produto**: um modelo atua quando outra pessoa usa a ferramenta. Usar IA somente para programar não atende a esse requisito.
@@ -60,9 +62,9 @@ O lançamento fixa **23h59 de 26/11** para post-mortem, relatório individual e 
 ## Pendências para o grupo
 
 - [ ] Revisar a caixa e confirmar a divergência em relação ao Projeto Autoral.
-- [ ] Escolher uma ideia e justificar a decisão. Matheus decidiu revisar a caixa antes de escolher (19/10).
+- [ ] Fechar a escolha e a divisão de trabalho do grupo. Depois da revisão inicial, a [rodada solicitada com agentes](experimentos/2026-10-19-sorteio-rcd/README.md) selecionou Oficina em Prancha para validação, com justificativa e objeções registradas.
 - [ ] Experimentar os similares e identificar suas tasks no There's An AI For That.
 - [ ] Fechar público inicial, recorte técnico e responsabilidades.
-- [ ] Montar e ensaiar a apresentação de até três minutos.
+- [ ] Ensaiar a apresentação de até cinco minutos a partir do [documento preparado](pitch-oficina-em-prancha.md).
 - [ ] Inserir seu link na planilha de Definição de Grupos.
 - [ ] Conferir e realizar a submissão de PF0 no Classroom.

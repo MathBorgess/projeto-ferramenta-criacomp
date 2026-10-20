@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "gerado_em_utc": "2026-10-20T01:02:20.507348+00:00",
+  "seed": "14532109174761975832",
+  "gerador": "Python random.Random / randint(1, 4)",
+  "entrada_sha256": "0f16e52804a38a6c38bdd38e20bb272bc576aa35401c523359912bc28361dbbf",
+  "regra": "Repetir apenas números sem opção e sequências duplicadas; sem filtro semântico.",
+  "caixa": [
+    {
+      "categoria": "Quem cria",
+      "opcoes": [
+        "Docentes",
+        "Criadores de conteúdo",
+        "Designers iniciantes",
+        "Mediadores de oficinas"
+      ]
+    },
+    {
+      "categoria": "O que cria",
+      "opcoes": [
+        "Rascunho visual",
+        "Sala de enigmas",
+        "Roteiro curto",
+        "Narrativa interativa"
+      ]
+    },
+    {
+      "categoria": "Como começa",
+      "opcoes": [
+        "Ideia e público",
+        "Rabisco e intenção",
+        "Tema e dificuldade",
+        "Referência autorizada"
+      ]
+    },
+    {
+      "categoria": "O que IA sugere",
+      "opcoes": [
+        "Ganchos e blocos",
+        "Formas e cores",
+        "Enigmas e pistas",
+        "Variações de estrutura"
+      ]
+    },
+    {
+      "categoria": "Como interage",
+      "opcoes": [
+        "Lousa por turnos",
+        "Editor de sequência",
+        "Editor de blocos",
+        "Seleção e conversa"
+      ]
+    },
+    {
+      "categoria": "Como controla",
+      "opcoes": [
+        "Travar regiões",
+        "Editar e ordenar",
+        "Fixar e reescrever",
+        "Misturar alternativas"
+      ]
+    },
+    {
+      "categoria": "O que preserva",
+      "opcoes": [
+        "Voz e blocos",
+        "Traços e intenção",
+        "Soluções e ordem",
+        "Referências e histórico"
+      ]
+    },
+    {
+      "categoria": "Como revisa",
+      "opcoes": [
+        "Intenção e composição",
+        "Coerência e solução",
+        "Clareza e duração",
+        "Acessibilidade"
+      ]
+    },
+    {
+      "categoria": "Como compara",
+      "opcoes": [
+        "Antes e depois",
+        "Percursos lado a lado",
+        "Ganchos lado a lado",
+        "Pranchas lado a lado"
+      ]
+    },
+    {
+      "categoria": "Como entrega",
+      "opcoes": [
+        "Roteiro cronometrado",
+        "Prancha PNG",
+        "Sala para jogar",
+        "Projeto editável"
+      ]
+    },
+    {
+      "categoria": "Papel da IA",
+      "opcoes": [
+        "Suporte",
+        "Geração",
+        "Híbrida"
+      ]
+    }
+  ],
+  "sequencias": [
+    {
+      "numeros": [
+        4,
+        1,
+        3,
+        4,
+        3,
+        1,
+        1,
+        2,
+        3,
+        3,
+        1
+      ],
+      "escolhas": [
+        {
+          "categoria": "Quem cria",
+          "numero": 4,
+          "item": "Mediadores de oficinas",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "O que cria",
+          "numero": 1,
+          "item": "Rascunho visual",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como começa",
+          "numero": 3,
+          "item": "Tema e dificuldade",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "O que IA sugere",
+          "numero": 4,
+          "item": "Variações de estrutura",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "Como interage",
+          "numero": 3,
+          "item": "Editor de blocos",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "Como controla",
+          "numero": 1,
+          "item": "Travar regiões",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "O que preserva",
+          "numero": 1,
+          "item": "Voz e blocos",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como revisa",
+          "numero": 2,
+          "item": "Coerência e solução",
+          "tentativas": [
+            2
+          ]
+        },
+        {
+          "categoria": "Como compara",
+          "numero": 3,
+          "item": "Ganchos lado a lado",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "Como entrega",
+          "numero": 3,
+          "item": "Sala para jogar",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "Papel da IA",
+          "numero": 1,
+          "item": "Suporte",
+          "tentativas": [
+            1
+          ]
+        }
+      ],
+      "id": "proposta-01"
+    },
+    {
+      "numeros": [
+        4,
+        3,
+        1,
+        2,
+        4,
+        4,
+        1,
+        4,
+        3,
+        2,
+        3
+      ],
+      "escolhas": [
+        {
+          "categoria": "Quem cria",
+          "numero": 4,
+          "item": "Mediadores de oficinas",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "O que cria",
+          "numero": 3,
+          "item": "Roteiro curto",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "Como começa",
+          "numero": 1,
+          "item": "Ideia e público",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "O que IA sugere",
+          "numero": 2,
+          "item": "Formas e cores",
+          "tentativas": [
+            2
+          ]
+        },
+        {
+          "categoria": "Como interage",
+          "numero": 4,
+          "item": "Seleção e conversa",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "Como controla",
+          "numero": 4,
+          "item": "Misturar alternativas",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "O que preserva",
+          "numero": 1,
+          "item": "Voz e blocos",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como revisa",
+          "numero": 4,
+          "item": "Acessibilidade",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "Como compara",
+          "numero": 3,
+          "item": "Ganchos lado a lado",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "Como entrega",
+          "numero": 2,
+          "item": "Prancha PNG",
+          "tentativas": [
+            2
+          ]
+        },
+        {
+          "categoria": "Papel da IA",
+          "numero": 3,
+          "item": "Híbrida",
+          "tentativas": [
+            3
+          ]
+        }
+      ],
+      "id": "proposta-02"
+    },
+    {
+      "numeros": [
+        3,
+        1,
+        3,
+        1,
+        4,
+        3,
+        2,
+        4,
+        1,
+        2,
+        2
+      ],
+      "escolhas": [
+        {
+          "categoria": "Quem cria",
+          "numero": 3,
+          "item": "Designers iniciantes",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "O que cria",
+          "numero": 1,
+          "item": "Rascunho visual",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como começa",
+          "numero": 3,
+          "item": "Tema e dificuldade",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "O que IA sugere",
+          "numero": 1,
+          "item": "Ganchos e blocos",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como interage",
+          "numero": 4,
+          "item": "Seleção e conversa",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "Como controla",
+          "numero": 3,
+          "item": "Fixar e reescrever",
+          "tentativas": [
+            3
+          ]
+        },
+        {
+          "categoria": "O que preserva",
+          "numero": 2,
+          "item": "Traços e intenção",
+          "tentativas": [
+            2
+          ]
+        },
+        {
+          "categoria": "Como revisa",
+          "numero": 4,
+          "item": "Acessibilidade",
+          "tentativas": [
+            4
+          ]
+        },
+        {
+          "categoria": "Como compara",
+          "numero": 1,
+          "item": "Antes e depois",
+          "tentativas": [
+            1
+          ]
+        },
+        {
+          "categoria": "Como entrega",
+          "numero": 2,
+          "item": "Prancha PNG",
+          "tentativas": [
+            2
+          ]
+        },
+        {
+          "categoria": "Papel da IA",
+          "numero": 2,
+          "item": "Geração",
+          "tentativas": [
+            2
+          ]
+        }
+      ],
+      "id": "proposta-03"
+    }
+  ],
+  "duplicatas_descartadas": []
+}
