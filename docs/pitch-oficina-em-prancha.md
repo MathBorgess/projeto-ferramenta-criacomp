@@ -4,7 +4,7 @@
 
 Apresentar somente o roteiro falado. Os quadros de apoio ficam para perguntas e preparação. Os tempos são metas para ensaio; reservar os últimos vinte segundos para pausas. O limite de cinco minutos segue a orientação mais recente de Matheus nesta conversa.
 
-O roteiro tem **532 palavras**. A 120 palavras por minuto, a estimativa textual é de cerca de **4min26s**, antes das pausas. A duração real depende do ensaio com cronômetro.
+O roteiro tem **527 palavras**. A 120 palavras por minuto, a estimativa textual é de cerca de **4min24s**, antes das pausas. A duração real depende do ensaio com cronômetro.
 
 ## Roteiro falado
 
@@ -23,13 +23,13 @@ Imagine uma oficina de ideação para pequenos empreendedores. O facilitador inf
 ### 1:30 a 2:10 Qual benefício pode sustentar a cobrança
 
 <!-- fala:inicio -->
-Nossa hipótese comercial é cobrar cento e quarenta e nove reais por uma prancha para uma oficina. O comprador seria o facilitador que já recebe pela atividade e reconhece valor no preparo do material. Esse preço ainda precisa ser testado. Uma conta conservadora, incluindo trabalho e aquisição do cliente, deixa apenas treze reais por venda antes de impostos. Por isso, não estamos apresentando um negócio validado. Precisamos observar se alguém paga, consegue criar sem ajuda e recebe um benefício que justifique o preço.
+Nossa hipótese comercial é cobrar cento e quarenta e nove reais por uma prancha para uma oficina. O comprador seria o facilitador que já recebe pela atividade e reconhece valor no preparo do material. Esse preço ainda precisa ser testado. Um cenário hipotético de estresse, incluindo trabalho e aquisição do cliente, deixa apenas treze reais por venda antes de impostos. Por isso, não estamos apresentando um negócio validado. Precisamos observar se alguém paga, consegue criar sem ajuda e recebe um benefício que justifique o preço.
 <!-- fala:fim -->
 
 ### 2:10 a 2:55 O que já existe e onde queremos diferenciar
 
 <!-- fala:inicio -->
-Miro já oferece criação com IA em quadros colaborativos. Canva e Magic Design permitem gerar e editar materiais visuais. Também é possível combinar um modelo de linguagem com edição manual. Nossa diferença proposta é concentrar o fluxo na preparação de uma oficina: preservar voz e blocos, comparar ganchos e combinar escolhas visuais antes da exportação. Ainda precisamos demonstrar que esse recorte é mais útil que as alternativas. A revisão de acessibilidade será uma triagem; uma imagem PNG não garante acesso por leitores de tela nem conformidade completa.
+Miro já combina criação com IA e quadros colaborativos, inclusive para preparar oficinas. Canva permite gerar materiais visuais e refiná-los com controle humano. Nossa hipótese é que um fluxo dedicado à oficina ajude a preservar blocos, comparar ganchos e combinar escolhas visuais antes da exportação. Vamos compará-lo com Miro ou Canva usando o mesmo conteúdo e medir tempo, retrabalho e preservação. A revisão de acessibilidade será uma triagem; um PNG não garante acesso por leitores de tela nem conformidade completa.
 <!-- fala:fim -->
 
 ### 2:55 a 3:45 Quais tecnologias planejamos usar
@@ -51,20 +51,22 @@ Até vinte e sete de outubro, queremos fechar o protótipo de baixa fidelidade e
 | O que é, para que serve e como funciona? | Ferramenta híbrida para criar roteiro curto e prancha visual de uma oficina, com sugestões de IA e decisões do facilitador. |
 | Quem usa e como se beneficia? | Facilitadores independentes com oficinas contratadas; hipótese de reduzir montagem e retrabalho. Benefício será medido, sem presumir receita adicional. |
 | Como interage? | Ideia e público → blocos → selecionar e conversar → comparar ganchos → misturar alternativas → revisar → exportar PNG. |
-| Quais similares e tasks? | Comparação verificada abaixo. Os rótulos e links exatos das tasks no There's An AI For That aguardam informação do usuário. |
+| Quais similares e tasks? | Miro AI e Canva, com fontes oficiais e links de Supported features do There's An AI For That fornecidos por Matheus. O material recebido não identifica uma task específica; ver a distinção abaixo. |
 | Quais ferramentas e tecnologias? | React, TypeScript, Vite, FastAPI/Pydantic, SQLite, API de modelo textual e exportação PNG no navegador; escolhas de planejamento, sem instalação nesta etapa. |
 | Viabilidade e cronograma? | Uma pessoa cria uma prancha por vez; composição por formas e texto; sem treino de modelo, editor genérico ou colaboração simultânea no MVP. Marcos de 27/10 a 26/11 abaixo. |
 
-## Similares e tasks associadas
+## Similares e referências do catálogo
 
-Fontes oficiais consultadas em 19/10/2026. A comparação descreve capacidades documentadas; nenhum teste de uso dos produtos foi realizado nesta rodada.
+Fontes oficiais consultadas em 19/10/2026 e rótulos do catálogo fornecidos por Matheus na mesma data. A comparação descreve capacidades documentadas; nenhum teste de uso dos produtos foi realizado nesta rodada.
 
-| Produto | Capacidade documentada semelhante | Diferença proposta da Oficina em Prancha | Task no There's An AI For That |
+| Produto | Capacidade documentada semelhante | Diferença a testar na Oficina em Prancha | Supported features recebidas do There's An AI For That |
 | --- | --- | --- | --- |
-| [Miro AI](https://help.miro.com/hc/en-us/articles/20164358139794-Create-with-AI) | Geração e iteração em documentos, diagramas, imagens e notas para ideação, inclusive oficinas | Fluxo mais estreito de roteiro curto, ganchos e prancha; utilidade adicional ainda não demonstrada | **Pendente de rótulo e link do catálogo** |
-| [Canva Magic Design](https://www.canva.com/magic-design/) | Geração de materiais visuais a partir de instruções, seguida de personalização | Preservar os blocos do facilitador e comparar aberturas dentro da preparação de uma oficina | **Pendente de rótulo e link do catálogo** |
+| [Miro AI](https://help.miro.com/hc/en-us/articles/36650745968914-Miro-AI-board-layout-with-Sidekicks-and-Flows) | Gera quadros estruturados e editáveis por instruções; a documentação inclui planos de oficina | Preservação dos blocos, comparação de ganchos e composição em um fluxo dedicado; utilidade adicional ainda não demonstrada | [Team Collaboration](https://theresanaiforthat.com/feature/team-collaboration/), [Visual Creation](https://theresanaiforthat.com/feature/visual-creation/) e [Image Generation](https://theresanaiforthat.com/feature/imagegen/); demais rótulos no registro abaixo |
+| Canva AI no texto recebido; [Magic Design](https://www.canva.com/magic-design/) como destino informado | A página oficial do Magic Design descreve geração por instruções, personalização no editor e exportação PNG | Comparar aberturas e preservar blocos durante o preparo da oficina; criação visual e controle humano já são capacidades das alternativas | [Integrations](https://theresanaiforthat.com/feature/integrations/), [SynthID](https://theresanaiforthat.com/feature/synthid/), [Outpainting](https://theresanaiforthat.com/feature/outpainting/) e [Inpainting](https://theresanaiforthat.com/feature/inpainting/), associados a Canva AI no trecho recebido |
 
-O acesso a `theresanaiforthat.com` foi bloqueado pela política de segurança do navegador desta sessão. Não foram inventadas classificações. Matheus pediu orientação para consultar o site: procurar **Miro AI/Miro Assist** e **Canva/Magic Design**, ou pesquisar **workshop planning**, **lesson planning** e **visual design**. Esses termos são sugestões de busca, não tasks verificadas. Para fechar esta exigência, registrar o nome, o rótulo exibido e o link informado pelo usuário.
+O [registro das referências recebidas](referencias/2026-10-19-taaft-miro-canva.md) preserva os dez rótulos e seus links. O material usa **Supported features**, sem indicar uma task específica ou a URL da ficha de cada produto no catálogo. O acesso direto ao domínio foi bloqueado pelo navegador; os links de features têm como fonte a mensagem de Matheus. Essa distinção mantém visível o limite em relação ao pedido de tasks de PF1. As afirmações antigas sobre beta ou gratuidade do Miro não foram usadas como informação atual.
+
+A diferenciação será comparada com o mesmo conteúdo em Miro ou Canva, usando também um modelo de linguagem quando fizer parte do fluxo habitual da pessoa. Medir tempo até uma prancha útil, retrabalho e preservação dos blocos; depois verificar se a vantagem percebida justifica o preço. Nenhuma dessas vantagens foi observada nesta rodada.
 
 ## Tecnologias e fronteiras do MVP
 
@@ -116,7 +118,8 @@ As quarenta horas estimadas pelo proponente são uma hipótese para o escopo mí
 ## Ensaio e fechamento da entrega
 
 - [ ] Ensaiar apenas o roteiro falado com cronômetro e ficar abaixo de cinco minutos.
-- [ ] Inserir os rótulos e links reais das tasks do There's An AI For That.
+- [x] Registrar os dez rótulos e links de Supported features fornecidos por Matheus, mantendo explícita a diferença em relação a tasks.
+- [ ] Identificar a task específica associada a cada similar; os trechos recebidos trazem features, sem esse campo.
 - [ ] Confirmar responsabilidades e o recorte que o grupo pretende desenvolver.
 - [ ] Se houver demonstração em baixa fidelidade, identificá-la como simulação.
 - [ ] Colocar o link da apresentação na planilha de Definição de Grupos.

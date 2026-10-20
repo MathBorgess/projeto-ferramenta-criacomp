@@ -32,6 +32,8 @@ Páginas consultadas em 19/10/2026. As funções abaixo são descritas pelos pr�
 
 **Exigência ainda aberta de PF1:** identificar as tasks associadas no [There's An AI For That](https://theresanaiforthat.com/) e adicionar seus links, além de experimentar os similares. Este levantamento de páginas não cumpre sozinho essa parte da entrega.
 
+**Complemento posterior em 19/10:** Matheus forneceu dez rótulos e links de **Supported features** de Miro AI e Canva AI, incorporados ao [pitch atual](pitch-oficina-em-prancha.md#similares-e-referências-do-catálogo) e ao [registro de referências](referencias/2026-10-19-taaft-miro-canva.md). Os trechos recebidos não identificam uma task específica; a distinção foi preservada.
+
 ## Estrutura de fala: três minutos
 
 | Tempo | Conteúdo a preencher depois da escolha |
