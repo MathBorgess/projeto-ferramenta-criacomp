@@ -1,6 +1,6 @@
 # Projeto Ferramenta - Criatividade Computacional
 
-**Proposta selecionada para validação: Oficina em Prancha**, ferramenta para facilitadores criarem roteiros curtos e pranchas visuais de oficinas. Consulte o [pitch de até cinco minutos](docs/pitch-oficina-em-prancha.md) e a [rodada com três agentes Luna e um advogado do diabo](docs/experimentos/2026-10-19-sorteio-rcd/README.md).
+**Direção atual: Oficina em Prancha**, aplicativo desktop em Electron, para baixar e usar internamente. A pessoa constrói a narrativa de uma palestra/oficina vendo imagens, formas e cores. O contexto fica guardado numa skill interna e alimenta saídas como pitch deck, LinkedIn e Instagram, por prompts e skills de formato. O conteúdo será gerado e revisado dentro do aplicativo. Consulte o [escopo atualizado](docs/escopo-oficina-narrativa.md), o [pitch de até cinco minutos](docs/pitch-oficina-em-prancha.md) e a [seleção original](docs/experimentos/2026-10-19-sorteio-rcd/README.md). A construção do app terá um repositório privado separado; o produto ainda não foi implementado.
 
 A primeira exploração partiu destas três ideias de ferramenta:
 
@@ -22,8 +22,11 @@ Este repositório é um fork público de [text-to-morphbox, de Filipe Calegario]
 - [Registro de processo e reprodução](docs/processo.md)
 - [Sorteio de três caminhos e avaliação comercial com agentes](docs/experimentos/2026-10-19-sorteio-rcd/README.md)
 - [Pitch da Oficina em Prancha](docs/pitch-oficina-em-prancha.md)
+- [Escopo atual: narrativa visual, skill interna e múltiplas saídas](docs/escopo-oficina-narrativa.md)
 
 **Escolha do caminho:** Matheus primeiro decidiu revisar a caixa antes de escolher. Depois solicitou três combinações aleatórias, três propostas Luna em paralelo e uma seleção por um quarto agente. Essa rodada selecionou **Oficina em Prancha como candidata à validação paga**. Implementação e retorno financeiro ainda não foram demonstrados.
+
+**Mudança de direção em 20/10/2026:** depois da seleção, o autor ampliou a entrega de uma prancha PNG para uma base narrativa e visual reutilizável por vários formatos. Isso altera o escopo original; não representa uma nova execução do sorteio. Preço, custos e esforço anteriores precisam ser reestimados. A skill interna de cada oficina pertence ao produto; a skill genérica de exploração no skills-catalog tem outra função.
 
 PF0 e PF1 têm prazo em **20/10/2026**, conforme os enunciados consultados em 19/10. O documento atual do pitch segue o limite de **cinco minutos**, reiterado por Matheus; a divergência com a menção de três minutos no lançamento permanece registrada nas fontes.
 
