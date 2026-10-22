@@ -6,7 +6,7 @@ A [mudança de escopo](escopo-oficina-narrativa.md) foi informada pelo autor dep
 
 Apresentar somente os blocos marcados como fala. A duração abaixo é uma estimativa textual, sem ensaio humano.
 
-**Duração estimada:** 490 palavras; 4min05s a 120 palavras/minuto. Com 30 segundos de pausas: 4min35s. Sem ensaio humano.
+**Duração estimada:** 534 palavras; 4min27s a 120 palavras/minuto. Com 30 segundos de pausas: 4min57s. Sem ensaio humano.
 
 ## Roteiro falado
 
@@ -43,7 +43,7 @@ O produto será um aplicativo desktop em Electron, baixável para uso interno. P
 ### Viabilidade e verificação
 
 <!-- fala:inicio -->
-O primeiro teste técnico será salvar uma oficina visual, reabri-la e gerar duas saídas sem repetir o briefing. A meta proposta é chegar aos três formatos. Os marcos registrados são arquitetura e baixa fidelidade em vinte e sete de outubro, ciclo ponta a ponta em dez de novembro, teste externo em doze e congelamento em dezessete. Outra pessoa deverá concluir o fluxo sem nossa explicação. Vamos observar preservação do conteúdo, tempo, correções e custo. A estimativa de esforço será refeita para este escopo.
+O primeiro teste técnico será salvar uma oficina visual, reabri-la e gerar duas saídas sem repetir o briefing. A meta proposta é chegar aos três formatos. Os marcos registrados são arquitetura e baixa fidelidade em vinte e sete de outubro, ciclo ponta a ponta em dez de novembro, teste externo em doze e congelamento em dezessete. Outra pessoa deverá concluir o fluxo sem nossa explicação. Vamos observar preservação do conteúdo, tempo, correções e custo. A estimativa de esforço será refeita para este escopo. Na seleção original, preferimos Oficina em Prancha pelo menor esforço estimado e pelo público profissional. Sala de Enredos exigia construir e publicar uma experiência jogável. Traço combinava preço baixo com maior esforço e público sem orçamento comprovado. São hipóteses dos agentes, sem demanda validada.
 <!-- fala:fim -->
 
 ## Apoio para responder às perguntas de PF1
